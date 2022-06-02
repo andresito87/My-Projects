@@ -1,0 +1,79 @@
+*,::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70%;
+}
+
+body{
+    background-color: rgba(135, 186, 241, 0.8);
+    color:rgba(144, 252, 146, 0.9);
+}
+
+.container{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.data-form{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.data-form input{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: rgb(45, 247, 38);
+    font-size: 1.7rem;
+}
+.data-form input:active{
+    border-bottom: 1px solid dodgerblue;
+}
+.data-form input:focus{
+    border-bottom: 1px solid dodgerblue;
+}
+
+.data-form button {
+    margin: 1rem 0rem;
+    background-color: #b5f74b;
+    border: 0;
+    outline: 0;
+    line-height: 3.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: rgb(46, 46, 186);
+    cursor: pointer;
+}
+.list_tasks{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+.task{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: row;
+    color: rgb(61, 15, 247);
+    justify-content: space-between;
+    height: 4rem;
+    
+}
+.icon{
+    color: rgb(255, 21, 9);
+    cursor: pointer;
+}
